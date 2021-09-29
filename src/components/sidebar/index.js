@@ -16,10 +16,7 @@ const Sidebar = ({isOpen, toggle}) => {
                         Experience
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
-                        Services
-                    </SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>
-                        Sign Up
+                        Qualities
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>

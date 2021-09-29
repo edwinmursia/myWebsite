@@ -24,7 +24,7 @@ export const homeObjTwo = {
     topLine: 'My experience',
     headline: 'Gained practical experience in many ways',
     description: 'I have gained experience by working in school projects, external projects with real customers and my own projects.',
-    buttonLabel: 'My projects',
+    buttonLabel: 'My own projects',
     imgStart: true,
     img: require('../../images/svg-2.svg').default,
     alt: 'Bank',
@@ -33,22 +33,4 @@ export const homeObjTwo = {
     darkText: false,
     displayButton: true,
     where: 'https://github.com/edwinmursia'
-}
-
-export const homeObjThree = {
-    id: 'signup', 
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Get started',
-    imgStart: false,
-    img: require('../../images/svg-3.svg').default,
-    alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false,
-    displayButton: false
 }
