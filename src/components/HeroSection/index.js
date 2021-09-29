@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
-import { Button } from '../ButtonElement'
+import { Button } from '../ButtonElements'
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
@@ -18,7 +18,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Edwin Mursia</HeroH1>
                 <HeroP>
-                    Welcome to my personal portfolio website. <br/> Enjoy
+                    This is my personal portfolio website <br/> Welcome
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' >

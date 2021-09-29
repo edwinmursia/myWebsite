@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#010606' : '#f9f9f9')};
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')}; #f9f9f9
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -45,7 +45,7 @@ export const Column2 = styled.div`
 `
 
 export const TextWrapper = styled.div`
-    max-width: 40px;
+    max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
 `
@@ -83,6 +83,7 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
+    display: ${({displayButton}) => (displayButton ? true : 'none')};
 `
 
 export const ImgWrap = styled.div`
