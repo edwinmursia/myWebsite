@@ -18,9 +18,9 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
     id: 'discover', 
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'My experience',
     headline: 'Gained practical experience in many ways',
     description: 'I have gained experience by working in school projects, external projects with real customers and my own projects.',
@@ -29,8 +29,8 @@ export const homeObjTwo = {
     img: require('../../images/svg-2.svg').default,
     alt: 'Bank',
     dark: false,
-    primary: true,
-    darkText: false,
+    primary: false,
+    darkText: true,
     displayButton: true,
     where: 'https://github.com/edwinmursia'
 }
