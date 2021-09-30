@@ -29,20 +29,20 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'>
+                        <SocialLogo to='home'>
                             Edwin
                         </SocialLogo>
                         <SocialIcons>
-                            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                            <SocialIconLink href="https://fi-fi.facebook.com/edwin.mursia" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/edwinmursia/?hl=fi" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+                            <SocialIconLink href="https://fi.linkedin.com/in/edwin-mursia-2796b3193" target="_blank" aria-label="LinkedIn">
                                 <FaLinkedin />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="Github">
+                            <SocialIconLink href="https://github.com/edwinmursia" target="_blank" aria-label="Github">
                                 <FaGithub />
                             </SocialIconLink>
                         </SocialIcons>

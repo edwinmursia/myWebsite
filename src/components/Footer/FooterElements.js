@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link as LinkS } from 'react-scroll'
 
 export const FooterContainer = styled.footer`
     background-color: #010522;
@@ -78,7 +79,7 @@ export const SocialMediaWrap = styled.div`
     }
 `
 
-export const SocialLogo = styled.h1`
+export const SocialLogo = styled(LinkS)`
     color: #fff;
     justify-self: start;
     cursor: pointer;
