@@ -92,6 +92,10 @@ export const QualitiesBg = styled.div`
     overflow: hidden;
     opacity: 7%;
 
+    @media screen and (max-width: 768px) {
+        height: 1100px;
+    }
+
     @media screen and (max-width: 480px) {
         height: 1300px;
     }
