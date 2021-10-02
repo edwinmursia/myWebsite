@@ -11,7 +11,7 @@ export const AboutMeContainer = styled.div`
 export const AboutMeWrapper = styled.div`
     background: #b6d7a8;
     height: 500px;
-    width: 50vw;
+    width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 `
