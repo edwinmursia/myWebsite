@@ -35,11 +35,14 @@ export const ImageContainer = styled.div`
 export const Text = styled.p`
     display: flex;
     font-size: 18px;
-    margin: 110px 30px 0px 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    margin-right: 15px;
     position: relative;
 `
 
 export const Image = styled.img`
-    width: 75%;
-    height: 85%;
+    width: 296px;
+    height: 363px;
 `
