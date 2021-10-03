@@ -14,6 +14,14 @@ export const Nav = styled.nav`
     z-index: 10;
     //margin-top: -80px;
 
+    @media screen and (max-width: 1024px) {
+        height: 100px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        height: 80px;
+    }
+
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease
     }

@@ -7,6 +7,10 @@ export const AboutMeContainer = styled.div`
     background: #cfe2f3;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 480px) {
+        height: 830px;
+    }
 `
 
 export const AboutMeWrapper = styled.div`
@@ -16,22 +20,69 @@ export const AboutMeWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 5px 5px;
+
+    @media screen and (max-width: 1024px) {
+        height: 500px;
+        width: 800px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        height: 500px;
+        width: 700px;
+    }
+
+    @media screen and (max-width: 480px) {
+        grid-template-columns: 1fr;
+        height: 630px;
+        width: 350px;
+    }
+    
 `
 
 export const TextContainer = styled.div`
     display: flex;
     background: #01bf71;
-    max-height: 100%;
-    max-width: 100%;
+    height: 500px;
+    width: 600px;
+
+    @media screen and (max-width: 1024px) {
+        width: 400px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        height: 500px;
+        width: 350px;
+    }
+
+    @media screen and (max-width: 480px) {
+        grid-template-columns: 1fr;
+        height: 180px;
+        width: 350px;
+    }
 `
 
 export const ImageContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100%;
-    max-width: 100%;
+    height: 500px;
+    width: 600px;
     background: #134f5c;
+
+    @media screen and (max-width: 1024px) {
+        width: 400px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        height: 500px;
+        width: 350px;
+    }
+
+    @media screen and (max-width: 480px) {
+        grid-template-columns: 1fr;
+        height: 450px;
+        width: 350px;
+    }
 `
 
 export const Text = styled.p`
@@ -45,6 +96,10 @@ export const Text = styled.p`
     font-weight: bold;
     color: #fff;
     text-shadow: 1px 1px #000;
+
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
+    }
 `
 
 export const Image = styled.img`
@@ -57,4 +112,8 @@ export const HeaderText = styled.h1`
     font-size: 40px;
     margin-bottom: 70px;
     text-shadow: 3px 3px #fff;
+
+    @media screen and (max-width: 480px) {
+        font-size: 24px;
+    }
 `
