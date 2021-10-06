@@ -44,6 +44,7 @@ export const TextContainer = styled.div`
     background: #01bf71;
     height: 500px;
     width: 600px;
+    border: 4px solid #134f5c;
 
     @media screen and (max-width: 1024px) {
         width: 400px;
@@ -68,6 +69,7 @@ export const ImageContainer = styled.div`
     height: 500px;
     width: 600px;
     background: #134f5c;
+    border: 4px solid #01bf71;
 
     @media screen and (max-width: 1024px) {
         width: 400px;
