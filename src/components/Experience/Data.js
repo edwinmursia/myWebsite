@@ -13,5 +13,17 @@ export const experienceTwo = {
 export const experienceThree = {
     img: require('../../images/python.svg').default,
     name: "Python",
-    description: "I have used Python in many different courses and projects. I also have self-learned it and made a couple of my own projects using Python. I have implemented Python in a machine learning course and now I am currently learning the usage of Flask."
+    description: "I have used Python in many different courses, projects and in my internship in 2020. I also have self-learned it and made a couple of my own projects using Python. I have implemented Python in a machine learning course and now I am currently learning the usage of Flask."
+}
+
+export const experienceFour = {
+    img: require('../../images/wordpress.svg').default,
+    name: "WordPress",
+    description: "WordPress is familiar to me as I have been in many customer projects where I have used it. The idea of my most recent WordPress project was to build an online store to a customer. I also have learned to use some known plugins of WordPress called Elementor and WooCommerce. "
+}
+
+export const experienceFive = {
+    img: require('../../images/java.svg').default,
+    name: "Java",
+    description: "Java was the first programming language I learned. I started with Java before beginning my studies and continued with it during my studies. I have been in one Java project and I know the basics of object oriented programming with it."
 }
