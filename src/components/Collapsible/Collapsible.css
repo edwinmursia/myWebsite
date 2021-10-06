@@ -8,12 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     height: 0px;
     overflow: hidden;
     transition: height ease 0.5s;
 }
 
 .content.show {
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 1125px;
 }

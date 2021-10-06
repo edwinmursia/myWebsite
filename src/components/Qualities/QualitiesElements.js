@@ -8,6 +8,10 @@ export const QualitiesContainer = styled.div`
     align-items: center;
     background: #010606;
 
+    @media screen and (max-width: 1000px) {
+        height: 1100px;
+    }
+
     @media screen and (max-width: 768px) {
         height: 1100px;
     }
@@ -28,7 +32,7 @@ export const QualitiesWrapper = styled.div`
     z-index: 1;
 
     @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     @media screen and (max-width: 768px) {
@@ -91,6 +95,11 @@ export const QualitiesBg = styled.div`
     height: 800px;
     overflow: hidden;
     opacity: 7%;
+
+    @media screen and (max-width: 1000px) {
+        height: 1100px;
+        opacity: 12%;
+    }
 
     @media screen and (max-width: 768px) {
         height: 1100px;
