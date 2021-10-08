@@ -6,6 +6,10 @@ export const ExperienceContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 480px) {
+        height: 2000px;
+    }
 `
 
 export const ExperienceWrapper = styled.div`
@@ -14,6 +18,16 @@ export const ExperienceWrapper = styled.div`
     width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: 1000px) {
+        width: 700px;
+    }
+
+    @media screen and (max-width: 480px) {
+        grid-template-columns: 1fr;
+        width: 450px;
+        height: 400px;
+    }
 `
 
 export const ContentWrapperOne = styled.div`
@@ -24,6 +38,15 @@ export const ContentWrapperOne = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 20px 0 0 20px;
+
+    @media screen and (max-width: 1000px) {
+        width: 150px;
+    }
+
+    @media screen and (max-width: 480px) {
+        width: 450px;
+        height: 100px;
+    }
 `
 
 export const ContentWrapperTwo = styled.div`
@@ -37,11 +60,28 @@ export const ContentWrapperTwo = styled.div`
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 0 20px 20px 0;
+
+    @media screen and (max-width: 1000px) {
+        width: 550px;
+    }
+
+    @media screen and (max-width: 480px) {
+        width: 450px;
+        height: 300px;
+    }
 `
 
 export const TheLogo = styled.img`
     max-width: 200px;
     height: auto;
+
+    @media screen and (max-width: 1000px) {
+        max-width: 120px;
+    }
+
+    @media screen and (max-width: 480px) {
+        max-width: 70px;
+    }
 `
 
 export const TheName = styled.div`
@@ -53,6 +93,10 @@ export const TheName = styled.div`
     align-items: center;
     border: 0.1px solid #000;
     border-radius: 20px 20px 0 0;
+
+    @media screen and (max-width: 480px) {
+        width: 450px;
+    }
 `
 
 export const TheDescription = styled.div`
@@ -66,4 +110,9 @@ export const TheDescription = styled.div`
     padding-right: 8px;
     border: 0.1px solid #000;
     border-radius: 0 0 20px 20px;
+
+    @media screen and (max-width: 480px) {
+        width: 300px;
+        height: 250px;
+    }
 `
