@@ -7,7 +7,7 @@ import Matrix from '../../videos/matrix.mp4'
 
 const Qualities = () => {
     return (
-        <QualitiesContainer id='services'>
+        <QualitiesContainer id='qualities'>
             <QualitiesBg>
                 <VideoBg autoPlay loop muted src={Matrix} type='video/mp4' />
             </QualitiesBg>

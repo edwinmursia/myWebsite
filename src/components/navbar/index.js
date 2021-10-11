@@ -1,25 +1,31 @@
 import React from 'react'
+import { animateScroll as scroll } from 'react-scroll'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
 import { FaBars } from 'react-icons/fa'
 
 const Navbar = ({toggle}) => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    };
+
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>Edwin</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome} >Edwin</NavLogo>
                     <MobileIcon onClick={toggle} >
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about'>Studies</NavLinks>
+                            <NavLinks to='studies'smooth={true} duration={500} spy={true} exact='true' offset={-80}>Studies</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover'>Experience</NavLinks>
+                            <NavLinks to='qualities' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Qualities</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services'>Qualities</NavLinks>
+                            <NavLinks to='experience' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Experience</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

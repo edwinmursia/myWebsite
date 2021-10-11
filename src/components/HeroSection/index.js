@@ -21,7 +21,7 @@ const HeroSection = () => {
                     This is my personal portfolio website <br/> Welcome
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' >
+                    <Button to='studies' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80} >
                         Get started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
