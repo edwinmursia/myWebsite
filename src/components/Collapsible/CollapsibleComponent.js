@@ -22,7 +22,7 @@ const Collapsible = (props) => {
   return (
     <div className="collapsible">
       <ButtonWrapper className="toggle" >
-        <h3 style={{paddingBottom: 25, fontSize: '25px'}} >My programming experience</h3>
+        <h3 className="my_header" style={{paddingBottom: 25, fontSize: '20px', cursor: "pointer"}} >My programming experience</h3>
         <FaArrowDown onClick={() => setIsOpen(!isOpen)} style={{cursor: "pointer"}} />
       </ButtonWrapper>
       <div className={isOpen ? "content show" : "content"}>{props.children}</div>

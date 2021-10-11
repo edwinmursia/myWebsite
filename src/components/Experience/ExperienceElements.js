@@ -27,6 +27,7 @@ export const ExperienceWrapper = styled.div`
         grid-template-columns: 1fr;
         width: 450px;
         height: 400px;
+        border: 0.1px solid #000;
     }
 `
 
@@ -67,7 +68,7 @@ export const ContentWrapperTwo = styled.div`
 
     @media screen and (max-width: 480px) {
         width: 450px;
-        height: 300px;
+        height: 340px;
     }
 `
 
