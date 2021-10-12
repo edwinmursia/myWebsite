@@ -68,7 +68,7 @@ export const ContentWrapperTwo = styled.div`
 
     @media screen and (max-width: 480px) {
         width: 450px;
-        height: 340px;
+        height: 370px;
     }
 `
 

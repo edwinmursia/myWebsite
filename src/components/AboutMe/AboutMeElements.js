@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AboutMeContainer = styled.div`
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 817px;
     background: #cfe2f3;
     justify-content: center;
     align-items: center;

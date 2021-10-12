@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar'
-import Navbar from '../components/Navbar'
 import AboutMe from '../components/AboutMe'
 import Footer from '../components/Footer'
 import Collapsible from '../components/Collapsible'
+import GoBack from '../components/GoBack'
 
 const MoreAboutPage = () => {
 
@@ -16,7 +16,7 @@ const MoreAboutPage = () => {
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
+            <GoBack />
             <AboutMe />
             <Collapsible />
             <Footer />
