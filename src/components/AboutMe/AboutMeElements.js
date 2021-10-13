@@ -98,6 +98,7 @@ export const Text = styled.p`
     font-weight: bold;
     color: #fff;
     text-shadow: 1px 1px #000;
+    cursor: pointer;
 
     @media screen and (max-width: 480px) {
         font-size: 12px;
@@ -125,6 +126,7 @@ export const HeaderText = styled.h1`
     font-size: 40px;
     margin-bottom: 70px;
     text-shadow: 3px 3px #fff;
+    cursor: pointer;
 
     @media screen and (max-width: 480px) {
         font-size: 24px;

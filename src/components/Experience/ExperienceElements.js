@@ -95,6 +95,7 @@ export const TheName = styled.div`
     align-items: center;
     border: 0.1px solid #000;
     border-radius: 20px 20px 0 0;
+    cursor: pointer;
 
     @media screen and (max-width: 480px) {
         width: 450px;
@@ -112,6 +113,7 @@ export const TheDescription = styled.div`
     padding-right: 8px;
     border: 0.1px solid #000;
     border-radius: 0 0 20px 20px;
+    cursor: pointer;
 
     @media screen and (max-width: 480px) {
         width: 300px;
