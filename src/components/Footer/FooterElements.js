@@ -90,6 +90,10 @@ export const SocialLogo = styled(LinkS)`
     margin-bottom: 16px;
     font-weight: bold;
     padding-right: 50px;
+
+    @media screen and (max-width: 480px) {
+        margin-right: 20px;
+    }
 `
 
 export const SocialIcons = styled.div`

@@ -1,7 +1,7 @@
 import React from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
-import { FaBars } from 'react-icons/fa'
+import { BiMenuAltRight } from 'react-icons/bi'
 
 const Navbar = ({toggle}) => {
 
@@ -15,7 +15,7 @@ const Navbar = ({toggle}) => {
                 <NavbarContainer>
                     <NavLogo to='/' onClick={toggleHome} >Edwin</NavLogo>
                     <MobileIcon onClick={toggle} >
-                        <FaBars />
+                        <BiMenuAltRight />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>

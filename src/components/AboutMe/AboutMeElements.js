@@ -105,9 +105,20 @@ export const Text = styled.p`
 `
 
 export const Image = styled.img`
-    width: 296px;
-    height: 363px;
+    width: 358px;
+    height: 361px;
     box-shadow: 4px 4px;
+    border-radius: 20px;
+
+    &:hover {
+        box-shadow: 5px 5px 5px #01bf71;
+        transition: all 1s linear
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 298px;
+        height: 301px;
+    }
 `
 
 export const HeaderText = styled.h1`

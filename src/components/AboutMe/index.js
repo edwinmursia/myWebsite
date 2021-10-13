@@ -27,7 +27,7 @@ const AboutMe = () => {
             </Text>
           </TextContainer>
           <ImageContainer>
-            <Image src={require("../../images/edwin.PNG").default} />
+            <Image src={require("../../images/edu.PNG").default} />
           </ImageContainer>
         </AboutMeWrapper>
       </AboutMeContainer>
