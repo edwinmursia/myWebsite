@@ -116,6 +116,11 @@ export const Image = styled.img`
         transition: all 1s linear
     }
 
+    @media screen and (max-width: 1024px) {
+        width: 300px;
+        height: 303px;
+    }
+
     @media screen and (max-width: 768px) {
         width: 298px;
         height: 301px;
