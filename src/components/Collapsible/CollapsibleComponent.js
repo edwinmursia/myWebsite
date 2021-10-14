@@ -37,7 +37,7 @@ const Collapsible = (props) => {
   return (
     <div className="collapsible">
       <ButtonWrapper className="toggle" >
-        <h3 className="my_header" style={{paddingBottom: 25, fontSize: '20px', cursor: "pointer"}} >My programming experience</h3>
+        <h3 className="my_header" style={{paddingBottom: 25, fontSize: '20px', cursor: "pointer", textAlign: "center"}} >Click to see my programming experience</h3>
         <TheButton onClick={() => allFunctions()} style={{cursor: "pointer", transition: "all 0.2s linear"}} spy={true} exact='true' >
           {isRotated ? <FaArrowUp/> : <FaArrowDown/>}
         </TheButton>
