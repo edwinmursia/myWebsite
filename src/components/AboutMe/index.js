@@ -17,9 +17,8 @@ const AboutMe = () => {
         <AboutMeWrapper>
           <TextContainer>
             <Text>
-              Edwin Mursia. I am 23 years old and I am a third year
-              information technology student. I am originally from Helsinki but
-              I moved to Turku because of my studies. I started to learn coding
+              Edwin Mursia. I am 24 years old software developer at CGI. I graduated in autumn 2022 
+              in information technology. I started to learn coding
               a little bit before starting my studies. I am always willing to
               learn more about coding and I enjoy it a lot. In my free time I
               like to go to the gym, spend time with people close to me, play
