@@ -17,11 +17,11 @@
 .content.show {
     display: flex;
     flex-direction: column;
-    height: 1875px;
+    height: 2200px;
 }
 
 @media screen and (max-width: 480px) {
     .content.show {
-        height: 2500px;
+        height: 3000px;
     }
 }
