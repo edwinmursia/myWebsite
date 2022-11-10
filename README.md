@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The idea of the project was to build a simple and modern personal portfolio website with React and gain experience on it. 
 
-# Click [HERE](https://my-website-edwinmursia.vercel.app/) to visit my portfolio website!
+# Click [HERE](https://my-website-dkijji97p-mursiaedwin-gmailcom.vercel.app/) to visit my portfolio website!
