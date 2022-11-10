@@ -7,7 +7,7 @@ export const experienceCurr = {
 export const experienceOne = {
     img: require('../../images/react.svg').default,
     name: "React / React Native",
-    description: "I have the most experience with javascript in React Native format. I was about 8 months in a customer project where I programmed an application for oral health tracking. I have been self-learning React and the past experience with React Native has helped me a lot. I also have experience of back-end development using Node.js and I am still learning it in a school course."
+    description: "I have the most experience with javascript in React Native format. I was about 8 months in a customer project where I programmed an application for oral health tracking. I have been self-learning React and the past experience with React Native has helped me a lot. I also have experience of back-end development using Node.js."
 }
 
 export const experienceTwo = {
@@ -19,7 +19,7 @@ export const experienceTwo = {
 export const experienceThree = {
     img: require('../../images/python.svg').default,
     name: "Python",
-    description: "I have used Python in many different courses, projects and in my internship in 2020. I also have self-learned it and made a couple of my own projects using Python. I have implemented Python in a machine learning course and now I am currently learning the usage of Flask."
+    description: "I have used Python in many different courses, projects and in my internship in 2020. I also have self-learned it and made a couple of my own projects using Python. I have implemented Python in a machine learning course and Flask in a study course."
 }
 
 export const experienceFour = {
