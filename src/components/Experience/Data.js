@@ -1,7 +1,7 @@
 export const experienceCurr = {
     img: require('../../images/oracle.svg').default,
     name: "Oracle technologies",
-    description: "In my workplace at CGI, I have had the possibility to gain important experience in really big projects using Oracle tools and technologies such as Oracle Database, Oracle Forms and Oracle APEX. Especially the high database and PL/SQL knowledge I have gained is vital for a software developer."
+    description: "In my old workplace at CGI, I have had the possibility to gain important experience in really big projects using Oracle tools and technologies such as Oracle Database, Oracle Forms and Oracle APEX. Especially the high database and PL/SQL knowledge I have gained is vital for a software developer."
 }
 
 export const experienceOne = {

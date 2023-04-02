@@ -17,7 +17,7 @@ const AboutMe = () => {
         <AboutMeWrapper>
           <TextContainer>
             <Text>
-              Edwin Mursia. I am 24 years old software developer at CGI. I graduated in autumn 2022 
+              Edwin Mursia. I am 25 years old software developer at Tietoevry. I graduated in autumn 2022 
               in information technology. I started to learn coding
               a little bit before starting my studies. I am always willing to
               learn more about coding and I enjoy it a lot. In my free time I
